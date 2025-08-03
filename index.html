@@ -1,95 +1,126 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mes Liens - Apprendre l'Anglais</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            background: linear-gradient(135deg, #007bff, #00c6ff);
-            color: white;
-            text-align: center;
-            margin: 0;
-            padding: 0;
-        }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mes Recos – Apprendre l’Anglais</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", sans-serif;
+      background-color: #f5f7fa;
+      color: #333;
+    }
 
-        .container {
-            max-width: 500px;
-            margin: auto;
-            padding: 20px;
-        }
+    .container {
+      max-width: 600px;
+      margin: auto;
+      padding: 30px 20px;
+      text-align: center;
+    }
 
-        .profile-img {
-            width: 120px;
-            height: 120px;
-            border-radius: 50%;
-            border: 4px solid white;
-            margin-bottom: 15px;
-        }
+    .profile-img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 3px solid #007bff;
+      margin-bottom: 15px;
+    }
 
-        h1 {
-            font-size: 24px;
-            margin-bottom: 5px;
-        }
+    h1 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
 
-        p {
-            font-size: 16px;
-            margin-bottom: 20px;
-        }
+    p.subtitle {
+      font-size: 16px;
+      color: #555;
+      margin-bottom: 30px;
+    }
 
-        .link-btn {
-            display: block;
-            background: white;
-            color: #007bff;
-            text-decoration: none;
-            padding: 15px;
-            margin: 12px 0;
-            border-radius: 12px;
-            font-size: 18px;
-            font-weight: bold;
-            transition: background 0.3s, transform 0.2s;
-        }
+    .link-card {
+      background: white;
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      text-align: left;
+    }
 
-        .link-btn:hover {
-            background: #f0f0f0;
-            transform: scale(1.05);
-        }
+    .link-card h2 {
+      font-size: 18px;
+      margin-top: 0;
+      color: #007bff;
+    }
 
-        .icon {
-            margin-right: 10px;
-        }
+    .link-card p {
+      font-size: 15px;
+      color: #555;
+    }
 
-        footer {
-            margin-top: 25px;
-            font-size: 14px;
-            opacity: 0.8;
-        }
-    </style>
+    .link-btn {
+      display: inline-block;
+      margin-top: 10px;
+      background-color: #007bff;
+      color: white;
+      padding: 12px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+
+    .link-btn:hover {
+      background-color: #0056b3;
+    }
+
+    .don {
+      margin: 40px 0 10px;
+    }
+
+    .don img {
+      height: 55px;
+    }
+
+    footer {
+      font-size: 14px;
+      color: #888;
+      margin-top: 40px;
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <!-- Photo de profil -->
-        <img src="assets/images/logo_apprendre_anglais.png" alt="Photo de profil" class="profile-img">
+  <div class="container">
+    <!-- Logo -->
+    <img src="assets/images/logo_apprendre_anglais.png" alt="Logo" class="profile-img" />
 
-        <!-- Nom et description -->
-        <h1>Apprends l'anglais facilement </h1>
-        <p>Mes meilleurs outils pour progresser rapidement 👇</p>
+    <h1>Les meilleurs outils pour apprendre l’anglais</h1>
+    <p class="subtitle">Ressources testées et approuvées pour progresser rapidement 🇬🇧</p>
 
-        <!-- Liens -->
-        <!--
-        <a class="link-btn" href="https://www.babbel.com/lien-affiliation" target="_blank">📘 Apprendre avec Babbel</a>
-        <a class="link-btn" href="https://preply.com/lien-affiliation" target="_blank">👩‍🏫 Prendre des cours avec Preply</a>
-        -->
-        <a class="link-btn" href="https://amzn.to/4kX45l2" target="_blank">📖 Livre recommandé</a>
-        <!-- a class="link-btn" href="https://wa.me/+33758496403" target="_blank"--><!--📲 Me contacter sur WhatsApp</a>-->
-        <p>Envie de me soutenir pour que je continue à faire des vidéos ? C'est par ici ! 👇</p>
-        <a href="https://coff.ee/apprendre_anglais" target="_blank">
-        <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" 
-         alt="Buy Me A Coffee" 
-         style="height: 60px !important;width: 217px !important;">
-        </a>
-        <footer>© 2025 - Apprendre l'anglais</footer>
+    <!-- Preply -->
+    <div class="link-card">
+      <h2>👩‍🏫 Apprends avec un vrai professeur (Preply)</h2>
+      <p>Choisis ton prof, ton rythme, ton objectif. Rien de mieux pour parler anglais rapidement. Cours en ligne 100 % personnalisés.</p>
+      <a class="link-btn" href="https://preply.sjv.io/N9yKbq" target="_blank">→ Réserve ton cours maintenant</a>
     </div>
+
+    <!-- Ebook Amazon -->
+    <div class="link-card">
+      <h2>📘 Ebook : l’anglais simple et efficace</h2>
+      <p>Un guide concret et facile à suivre. Expressions utiles, vocabulaire et conseils pratiques pour parler anglais dès aujourd’hui.</p>
+      <a class="link-btn" href="https://amzn.to/4l74lOB" target="_blank">→ Télécharger le ebook</a>
+    </div>
+
+    <!-- Soutien -->
+    <div class="don">
+      <p>🙏 Tu aimes mon contenu ? Tu peux me soutenir ici :</p>
+      <a href="https://coff.ee/apprendre_anglais" target="_blank">
+        <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" />
+      </a>
+    </div>
+
+    <footer>© 2025 – Apprendre l’Anglais | Tous droits réservés</footer>
+  </div>
 </body>
 </html>
